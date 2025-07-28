@@ -38,14 +38,14 @@ function logToFile(filePath, message) {
 }
 
 // Logging middleware
-app.use((req, res, next) => {
-  const now = new Date().toISOString();
-  const origin = req.get('origin') || req.get('referer') || 'unknown';
-  const logMsg = `[${now}] Endpoint: ${req.method} ${req.originalUrl} | Origin: ${origin}`;
-  console.log(logMsg);
-  logToFile(accessLogFile, logMsg);
-  next();
-});
+// app.use((req, res, next) => {
+//   const now = new Date().toISOString();
+//   const origin = req.get('origin') || req.get('referer') || 'unknown';
+//   const logMsg = `[${now}] Endpoint: ${req.method} ${req.originalUrl} | Origin: ${origin}`;
+//   console.log(logMsg);
+//   logToFile(accessLogFile, logMsg);
+//   next();
+// });
 
 app.get("/", (req, res) =>
   res.json({
