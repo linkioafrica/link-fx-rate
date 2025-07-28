@@ -148,7 +148,7 @@ async function getSellRate(pair) {
 
 // Main function to fetch all rates
 async function fetchAllRates() {
-  console.log("Fetching exchange rates...");
+  // console.log("Fetching exchange rates...");
   const results = [];
 
   // Process each pair for both buy and sell
@@ -268,7 +268,7 @@ async function main() {
     initializeDataFiles();
 
     // Initial fetch
-    console.log("Fetching initial exchange rates...");
+    // console.log("Fetching initial exchange rates...");
     const rates = await fetchAllRates();
     // console.log("Rates: ", rates);
     saveRatesToFile(rates);
