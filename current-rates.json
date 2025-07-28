@@ -1,763 +1,125 @@
 {
-  "timestamp": "2025-07-28T00:51:46.815Z",
+  "timestamp": "2025-07-28T17:20:44.655Z",
   "rates": [
     {
-      "pair": "BRZ/USDC",
-      "rate": "5.625552",
-      "timestamp": "2025-07-28T00:51:32.655Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "55595.0",
-        "usdcAmount": "9882.585325",
-        "rawResponse": {
-          "dstAmount": "9882585325",
-          "srcToken": {
-            "address": "0xe9185ee218cae427af7b9764a011bb89fea761b4",
-            "symbol": "BRZ",
-            "name": "BRZ Token",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "BRL/USD",
+      "rate": "5.668423",
+      "timestamp": "2025-07-28T17:20:30.149Z",
+      "type": "buy"
     },
     {
-      "pair": "BRZ/USDC",
-      "rate": "5.554289",
-      "timestamp": "2025-07-28T00:51:32.786Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "55542.89181623569",
-        "rawResponse": {
-          "dstAmount": "55542891816235690953640",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0xe9185ee218cae427af7b9764a011bb89fea761b4",
-            "symbol": "BRZ",
-            "name": "BRZ Token",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "BRL/USD",
+      "rate": "5.560554",
+      "timestamp": "2025-07-28T17:20:30.346Z",
+      "type": "sell"
     },
     {
-      "pair": "CADC/USDC",
-      "rate": "1.379378",
-      "timestamp": "2025-07-28T00:51:33.969Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "13655.845",
-        "usdcAmount": "9900.003674",
-        "rawResponse": {
-          "dstAmount": "9900003674",
-          "srcToken": {
-            "address": "0x043eb4b75d0805c43d7c834902e335621983cf03",
-            "symbol": "CADC",
-            "name": "CAD Coin",
-            "decimals": 18,
-            "eip2612": false,
-            "isFoT": false,
-            "logoURI": "https://tokens-data.1inch.io/images/8453/0x043eb4b75d0805c43d7c834902e335621983cf03_0x5f3cce927f0a179daeae9439621ef78c4326cbd75de34ba69baa641feea73306.webp",
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "CAD/USD",
+      "rate": "1.375179",
+      "timestamp": "2025-07-28T17:20:31.549Z",
+      "type": "buy"
     },
     {
-      "pair": "CADC/USDC",
-      "rate": "1.364224",
-      "timestamp": "2025-07-28T00:51:34.255Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "13642.244503395354",
-        "rawResponse": {
-          "dstAmount": "13642244503395353191352",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x043eb4b75d0805c43d7c834902e335621983cf03",
-            "symbol": "CADC",
-            "name": "CAD Coin",
-            "decimals": 18,
-            "eip2612": false,
-            "isFoT": false,
-            "logoURI": "https://tokens-data.1inch.io/images/8453/0x043eb4b75d0805c43d7c834902e335621983cf03_0x5f3cce927f0a179daeae9439621ef78c4326cbd75de34ba69baa641feea73306.webp",
-            "tags": []
-          }
-        }
-      }
+      "pair": "CAD/USD",
+      "rate": "1.360052",
+      "timestamp": "2025-07-28T17:20:31.840Z",
+      "type": "sell"
     },
     {
-      "pair": "VCHF/USDC",
-      "rate": "0.797931",
-      "timestamp": "2025-07-28T00:51:35.503Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "7692.82",
-        "usdcAmount": "9640.963571",
-        "rawResponse": {
-          "dstAmount": "9640963571",
-          "srcToken": {
-            "address": "0x1fca74d9ef54a6ac80ffe7d3b14e76c4330fd5d8",
-            "symbol": "VCHF",
-            "name": "VNX Franc",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "CHF/USD",
+      "rate": "0.807249",
+      "timestamp": "2025-07-28T17:20:33.081Z",
+      "type": "buy"
     },
     {
-      "pair": "VCHF/USDC",
-      "rate": "0.789129",
-      "timestamp": "2025-07-28T00:51:35.738Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "7891.285094067017",
-        "rawResponse": {
-          "dstAmount": "7891285094067016776188",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x1fca74d9ef54a6ac80ffe7d3b14e76c4330fd5d8",
-            "symbol": "VCHF",
-            "name": "VNX Franc",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "CHF/USD",
+      "rate": "0.794298",
+      "timestamp": "2025-07-28T17:20:33.327Z",
+      "type": "sell"
     },
     {
-      "pair": "EURC/USDC",
-      "rate": "0.854460",
-      "timestamp": "2025-07-28T00:51:36.989Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "8532.521",
-        "usdcAmount": "9985.867763",
-        "rawResponse": {
-          "dstAmount": "9985867763",
-          "srcToken": {
-            "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
-            "symbol": "EURC",
-            "name": "EURC",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens-data.1inch.io/images/8453/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42_0xbeace99dc8944ca349f75c25d6d4033a4becfc1fe0e20fe8abf0090772677f87.webp",
-            "tags": [
-              "crosschain",
-              "GROUP:EURC",
-              "PEG:EUR",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "EUR/USD",
+      "rate": "0.866627",
+      "timestamp": "2025-07-28T17:20:34.566Z",
+      "type": "buy"
     },
     {
-      "pair": "EURC/USDC",
-      "rate": "0.845798",
-      "timestamp": "2025-07-28T00:51:37.240Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "8457.983576",
-        "rawResponse": {
-          "dstAmount": "8457983576",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
-            "symbol": "EURC",
-            "name": "EURC",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens-data.1inch.io/images/8453/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42_0xbeace99dc8944ca349f75c25d6d4033a4becfc1fe0e20fe8abf0090772677f87.webp",
-            "tags": [
-              "crosschain",
-              "GROUP:EURC",
-              "PEG:EUR",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "EUR/USD",
+      "rate": "0.857876",
+      "timestamp": "2025-07-28T17:20:34.812Z",
+      "type": "sell"
     },
     {
-      "pair": "VGBP/USDC",
-      "rate": "0.728897",
-      "timestamp": "2025-07-28T00:51:38.437Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "7396.122",
-        "usdcAmount": "10147.002516",
-        "rawResponse": {
-          "dstAmount": "10147002516",
-          "srcToken": {
-            "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
-            "symbol": "VGBP",
-            "name": "VNX British Pound",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "GBP/USD",
+      "rate": "0.746779",
+      "timestamp": "2025-07-28T17:20:36.046Z",
+      "type": "buy"
     },
     {
-      "pair": "VGBP/USDC",
-      "rate": "0.717513",
-      "timestamp": "2025-07-28T00:51:38.777Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "7175.129054338588",
-        "rawResponse": {
-          "dstAmount": "7175129054338587388227",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
-            "symbol": "VGBP",
-            "name": "VNX British Pound",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "GBP/USD",
+      "rate": "0.735167",
+      "timestamp": "2025-07-28T17:20:36.238Z",
+      "type": "sell"
     },
     {
-      "pair": "IDRX/USDC",
-      "rate": "16404.002830",
-      "timestamp": "2025-07-28T00:51:39.984Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "163860110.0",
-        "usdcAmount": "9989.032049",
-        "rawResponse": {
-          "dstAmount": "9989032049",
-          "srcToken": {
-            "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
-            "symbol": "IDRX",
-            "name": "IDRX",
-            "decimals": 2,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "IDR/USD",
+      "rate": "16513.247224",
+      "timestamp": "2025-07-28T17:20:37.983Z",
+      "type": "buy"
     },
     {
-      "pair": "IDRX/USDC",
-      "rate": "16210.484170",
-      "timestamp": "2025-07-28T00:51:40.215Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "162104841.7",
-        "rawResponse": {
-          "dstAmount": "16210484170",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x18bc5bcc660cf2b9ce3cd51a404afe1a0cbd3c22",
-            "symbol": "IDRX",
-            "name": "IDRX",
-            "decimals": 2,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "IDR/USD",
+      "rate": "16318.196019",
+      "timestamp": "2025-07-28T17:20:38.155Z",
+      "type": "sell"
     },
     {
-      "pair": "MXNe/USDC",
-      "rate": "18.667596",
-      "timestamp": "2025-07-28T00:51:41.358Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "185956.2",
-        "usdcAmount": "9961.443313",
-        "rawResponse": {
-          "dstAmount": "9961443313",
-          "srcToken": {
-            "address": "0x269cae7dc59803e5c596c95756faeebb6030e0af",
-            "symbol": "MXNe",
-            "name": "Real MXN",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "MXN/USD",
+      "rate": "18.671661",
+      "timestamp": "2025-07-28T17:20:39.299Z",
+      "type": "buy"
     },
     {
-      "pair": "MXNe/USDC",
-      "rate": "18.462525",
-      "timestamp": "2025-07-28T00:51:41.622Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "184625.248899",
-        "rawResponse": {
-          "dstAmount": "184625248899",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x269cae7dc59803e5c596c95756faeebb6030e0af",
-            "symbol": "MXNe",
-            "name": "Real MXN",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "MXN/USD",
+      "rate": "18.466349",
+      "timestamp": "2025-07-28T17:20:39.493Z",
+      "type": "sell"
     },
     {
-      "pair": "cNGN/USDC",
-      "rate": "1542.411333",
-      "timestamp": "2025-07-28T00:51:42.790Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "15419119.0",
-        "usdcAmount": "9996.762001",
-        "rawResponse": {
-          "dstAmount": "9996762001",
-          "srcToken": {
-            "address": "0x46c85152bfe9f96829aa94755d9f915f9b10ef5f",
-            "symbol": "cNGN",
-            "name": "cNGN",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "NGN/USD",
+      "rate": "1542.209714",
+      "timestamp": "2025-07-28T17:20:40.712Z",
+      "type": "buy"
     },
     {
-      "pair": "cNGN/USDC",
-      "rate": "1510.927997",
-      "timestamp": "2025-07-28T00:51:42.975Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "15109279.974736",
-        "rawResponse": {
-          "dstAmount": "15109279974736",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0x46c85152bfe9f96829aa94755d9f915f9b10ef5f",
-            "symbol": "cNGN",
-            "name": "cNGN",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "NGN/USD",
+      "rate": "1510.527234",
+      "timestamp": "2025-07-28T17:20:40.913Z",
+      "type": "sell"
     },
     {
-      "pair": "TRYB/USDC",
-      "rate": "40.639388",
-      "timestamp": "2025-07-28T00:51:44.151Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "406067.55",
-        "usdcAmount": "9991.970106",
-        "rawResponse": {
-          "dstAmount": "9991970106",
-          "srcToken": {
-            "address": "0xfb8718a69aed7726afb3f04d2bd4bfde1bdcb294",
-            "symbol": "TRYB",
-            "name": "BiLira",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "TRY/USD",
+      "rate": "40.749067",
+      "timestamp": "2025-07-28T17:20:42.091Z",
+      "type": "buy"
     },
     {
-      "pair": "TRYB/USDC",
-      "rate": "40.144254",
-      "timestamp": "2025-07-28T00:51:44.315Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "401442.544131",
-        "rawResponse": {
-          "dstAmount": "401442544131",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0xfb8718a69aed7726afb3f04d2bd4bfde1bdcb294",
-            "symbol": "TRYB",
-            "name": "BiLira",
-            "decimals": 6,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "TRY/USD",
+      "rate": "40.213518",
+      "timestamp": "2025-07-28T17:20:42.271Z",
+      "type": "sell"
     },
     {
-      "pair": "ZARP/USDC",
-      "rate": "17.905033",
-      "timestamp": "2025-07-28T00:51:45.588Z",
-      "type": "buy",
-      "source": "1inch",
-      "details": {
-        "tokenAmount": "178764.69",
-        "usdcAmount": "9984.047155",
-        "rawResponse": {
-          "dstAmount": "9984047155",
-          "srcToken": {
-            "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
-            "symbol": "ZARP",
-            "name": "ZARP Stablecoin",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          },
-          "dstToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          }
-        }
-      }
+      "pair": "ZAR/USD",
+      "rate": "17.906830",
+      "timestamp": "2025-07-28T17:20:43.432Z",
+      "type": "buy"
     },
     {
-      "pair": "ZARP/USDC",
-      "rate": "17.683571",
-      "timestamp": "2025-07-28T00:51:45.814Z",
-      "type": "sell",
-      "source": "1inch",
-      "details": {
-        "usdcAmount": "10000",
-        "tokenAmount": "176835.70683075523",
-        "rawResponse": {
-          "dstAmount": "176835706830755220357794",
-          "srcToken": {
-            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "symbol": "USDC",
-            "name": "USD Coin",
-            "decimals": 6,
-            "eip2612": true,
-            "isFoT": false,
-            "logoURI": "https://tokens.1inch.io/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.png",
-            "tags": [
-              "crosschain",
-              "GROUP:USDC",
-              "PEG:USD",
-              "tokens"
-            ]
-          },
-          "dstToken": {
-            "address": "0xb755506531786c8ac63b756bab1ac387bacb0c04",
-            "symbol": "ZARP",
-            "name": "ZARP Stablecoin",
-            "decimals": 18,
-            "eip2612": false,
-            "tags": []
-          }
-        }
-      }
+      "pair": "ZAR/USD",
+      "rate": "17.692230",
+      "timestamp": "2025-07-28T17:20:43.654Z",
+      "type": "sell"
     }
   ]
 }
