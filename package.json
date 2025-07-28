@@ -1,0 +1,22 @@
+{
+  "name": "1inch-exchange-rates",
+  "version": "1.0.0",
+  "description": "Fetches exchange rates from 1inch API for specified currency pairs",
+  "main": "exchange-rates.js",
+  "scripts": {
+    "start": "node exchange-rates.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "1inch",
+    "exchange-rates",
+    "crypto",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "ethers": "^5.7.2"
+  }
+}

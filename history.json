@@ -1,0 +1,2002 @@
+[
+  {
+    "timestamp": "2025-07-25T02:38:00.652Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.570611",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.507028",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.368464",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.353438",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797936",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789124",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.855960",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.847288",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741073",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732891",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16417.900147",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16232.718091",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.632380",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.427700",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1544.976662",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1515.314295",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.788172",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.304273",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910943",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.704377",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T14:42:29.543Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.576906",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.510288",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375222",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360141",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798122",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789331",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.856878",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.848568",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741117",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732893",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16447.353525",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16248.892192",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.632380",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.427700",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1544.827052",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1515.094714",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.747636",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.274832",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.909913",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.704812",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T15:27:45.627Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.576906",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.510288",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375211",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360143",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798152",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789332",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.856622",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.847986",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741114",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732897",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16447.362326",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16248.898962",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.632380",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.427700",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1544.827052",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1515.094714",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.785195",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.276300",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910267",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.705799",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T16:12:45.442Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.599995",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.526935",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375284",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360201",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798101",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789300",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.857346",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.848660",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741082",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732884",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16447.362326",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16248.898962",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.661990",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.434472",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1546.496486",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1517.290086",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.788159",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.304036",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910353",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.706024",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T16:58:13.797Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.599995",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.526935",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375303",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360200",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798081",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789288",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.857056",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.848366",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741092",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732883",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16447.362326",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16248.897133",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.669725",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.464561",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1546.495251",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1517.288670",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.787898",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.305397",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910353",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.706024",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T17:51:54.095Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.599963",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.526928",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375324",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360203",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798101",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789290",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.856280",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.847600",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741085",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732877",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16447.362326",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16248.897133",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.669701",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.464585",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1546.495251",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1517.288670",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.787898",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.305397",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910240",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.705727",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T19:10:27.459Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.608150",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.522243",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375297",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360176",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.798068",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789258",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.855666",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.847046",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.741023",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732833",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16441.509821",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16247.624799",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.669701",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.464585",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1546.367672",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1517.140669",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.787938",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.305168",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.910104",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.705357",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-25T21:11:59.047Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.621094",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.538088",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.375203",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.360136",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797995",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789209",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.855605",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.847087",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.740917",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.732688",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16441.207516",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16247.243592",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.669739",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.464541",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1546.365628",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1517.138271",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.787938",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.305168",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.909000",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.701835",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-27T23:25:37.860Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379377",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364224",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797924",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789121",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854493",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845811",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.729392",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.717555",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16400.581815",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.665641",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.153150",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905509",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.685383",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-27T23:40:55.524Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379358",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364223",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797897",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789120",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854377",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845700",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.729339",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.717435",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.665641",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.153150",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905509",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.685383",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-27T23:42:46.041Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379375",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364221",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797919",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789117",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854377",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845700",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.729225",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.717373",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.665641",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.153150",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905509",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.685383",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-27T23:52:59.849Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379320",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364211",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797896",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789108",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854371",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845716",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.728771",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.716925",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.665641",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.153150",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905467",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.685212",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-28T00:03:00.859Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379357",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364247",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797904",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789102",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854370",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845687",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.728750",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.716524",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.680465",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.145294",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905311",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.684593",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-28T00:13:00.449Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379339",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364215",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797905",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789110",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854211",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845580",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.728777",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.717018",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.639388",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.144254",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905311",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.684593",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-28T00:21:32.380Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379335",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364198",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797892",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789089",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.853890",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845223",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.727409",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.715749",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16401.317452",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16205.426610",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.639388",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.144254",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905038",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.683588",
+        "source": "1inch"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-28T00:51:46.815Z",
+    "rates": [
+      {
+        "pair": "BRZ/USDC",
+        "type": "buy",
+        "rate": "5.625552",
+        "source": "1inch"
+      },
+      {
+        "pair": "BRZ/USDC",
+        "type": "sell",
+        "rate": "5.554289",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "buy",
+        "rate": "1.379378",
+        "source": "1inch"
+      },
+      {
+        "pair": "CADC/USDC",
+        "type": "sell",
+        "rate": "1.364224",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "buy",
+        "rate": "0.797931",
+        "source": "1inch"
+      },
+      {
+        "pair": "VCHF/USDC",
+        "type": "sell",
+        "rate": "0.789129",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "buy",
+        "rate": "0.854460",
+        "source": "1inch"
+      },
+      {
+        "pair": "EURC/USDC",
+        "type": "sell",
+        "rate": "0.845798",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "buy",
+        "rate": "0.728897",
+        "source": "1inch"
+      },
+      {
+        "pair": "VGBP/USDC",
+        "type": "sell",
+        "rate": "0.717513",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "buy",
+        "rate": "16404.002830",
+        "source": "1inch"
+      },
+      {
+        "pair": "IDRX/USDC",
+        "type": "sell",
+        "rate": "16210.484170",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "buy",
+        "rate": "18.667596",
+        "source": "1inch"
+      },
+      {
+        "pair": "MXNe/USDC",
+        "type": "sell",
+        "rate": "18.462525",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "buy",
+        "rate": "1542.411333",
+        "source": "1inch"
+      },
+      {
+        "pair": "cNGN/USDC",
+        "type": "sell",
+        "rate": "1510.927997",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "buy",
+        "rate": "40.639388",
+        "source": "1inch"
+      },
+      {
+        "pair": "TRYB/USDC",
+        "type": "sell",
+        "rate": "40.144254",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "buy",
+        "rate": "17.905033",
+        "source": "1inch"
+      },
+      {
+        "pair": "ZARP/USDC",
+        "type": "sell",
+        "rate": "17.683571",
+        "source": "1inch"
+      }
+    ]
+  }
+]
