@@ -1,13 +1,14 @@
+
 const axios = require("axios");
 const { ethers } = require("ethers");
 const fs = require("fs");
 const path = require("path");
 
 // Configuration
-const API_KEY = "MEP8xDbwpv2310wNbYIVgGHTTFcM3koM";
+const API_KEY = process.env.ONEINCH_API_KEY || "MEP8xDbwpv2310wNbYIVgGHTTFcM3koM";
 const CHAIN_ID = 8453; // Base chain
 const USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
-const UPDATE_INTERVAL_MS = 30 * 60 * 1000; // 45 minutes
+const UPDATE_INTERVAL_MS = 15 * 60 * 1000; // 15 minutes
 
 // File paths
 const CURRENT_RATES_FILE = path.join(__dirname, "current-rates.json");
@@ -16,62 +17,24 @@ const HISTORY_FILE = path.join(__dirname, "history.json");
 // Token addresses and their details
 const TOKENS = {
   // Format: SYMBOL: { address, decimals, amount (in human readable format) }
-  BRZ: {
-    address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    decimals: 18,
-    amount: "55595.0", // Amount in human readable format
-  },
-  CADC: {
-    address: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
-    decimals: 18,
-    amount: "13655.845",
-  },
-  VCHF: {
-    address: "0x1fcA74D9ef54a6AC80ffE7D3b14e76c4330Fd5D8",
-    decimals: 18,
-    amount: "7692.82",
-  },
-  EURC: {
-    address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
-    decimals: 6,
-    amount: "8532.521",
-  },
-  VGBP: {
-    address: "0xAEB4bb7DebD1E5e82266f7c3b5cFf56B3A7BF411",
-    decimals: 18,
-    amount: "7396.122",
-  },
-  IDRX: {
-    address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
-    decimals: 2,
-    amount: "163860110.0",
-  },
-  MXNe: {
-    address: "0x269caE7Dc59803e5C596c95756faEeBb6030E0aF",
-    decimals: 6,
-    amount: "185956.2",
-  },
-  cNGN: {
-    address: "0x46C85152bFe9f96829aA94755D9f915F9B10EF5F",
-    decimals: 6,
-    amount: "15419119.0",
-  },
-  TRYB: {
-    address: "0xFb8718a69aed7726AFb3f04D2Bd4bfDE1BdCb294",
-    decimals: 6,
-    amount: "406067.55",
-  },
-  ZARP: {
-    address: "0xb755506531786C8aC63B756BaB1ac387bACB0C04",
-    decimals: 18,
-    amount: "178764.69",
-  },
+  BRZ: { address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4", decimals: 18, amount: "55595.0", currency: "BRL" },
+  CADC: { address: "0x043eB4B75d0805c43D7C834902E335621983Cf03", decimals: 18, amount: "13655.845", currency: "CAD" },
+  VCHF: { address: "0x1fcA74D9ef54a6AC80ffE7D3b14e76c4330Fd5D8", decimals: 18, amount: "7692.82", currency: "CHF" },
+  EURC: { address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42", decimals: 6, amount: "8532.521", currency: "EUR" },
+  VGBP: { address: "0xAEB4bb7DebD1E5e82266f7c3b5cFf56B3A7BF411", decimals: 18, amount: "7396.122", currency: "GBP" },
+  IDRX: { address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22", decimals: 2, amount: "163860110.0", currency: "IDR" },
+  MXNe: { address: "0x269caE7Dc59803e5C596c95756faEeBb6030E0aF", decimals: 6, amount: "185956.2", currency: "MXN" },
+  cNGN: { address: "0x46C85152bFe9f96829aA94755D9f915F9B10EF5F", decimals: 6, amount: "15419119.0", currency: "NGN" },
+  TRYB: { address: "0xFb8718a69aed7726AFb3f04D2Bd4bfDE1BdCb294", decimals: 6, amount: "406067.55", currency: "TRY" },
+  ZARP: { address: "0xb755506531786C8aC63B756BaB1ac387bACB0C04", decimals: 18, amount: "178764.69", currency: "ZAR" }
 };
 
 // Pairs to track (USDC/TOKEN)
 const PAIRS = Object.keys(TOKENS).map((symbol) => ({
   symbol: `${symbol}/USDC`,
+  currency_pair: `${TOKENS[symbol].currency}/USD`,
   tokenSymbol: symbol,
+  currency: TOKENS[symbol].currency,
   tokenAddress: TOKENS[symbol].address,
   tokenDecimals: TOKENS[symbol].decimals,
   amount: TOKENS[symbol].amount,
@@ -136,16 +99,16 @@ async function getBuyRate(pair) {
   const rate = tokenAmount / usdcAmount;
 
   return {
-    pair: pair.symbol,
+    pair: pair.currency_pair,
     rate: formatRate(rate),
     timestamp: new Date().toISOString(),
     type: "buy",
-    source: "1inch",
-    details: {
-      tokenAmount: pair.amount,
-      usdcAmount: usdcAmount.toString(),
-      rawResponse: quote,
-    },
+    // source: "1inch",
+    // details: {
+    //   tokenAmount: pair.amount,
+    //   usdcAmount: usdcAmount.toString(),
+    //   rawResponse: quote,
+    // },
   };
 }
 
@@ -170,16 +133,16 @@ async function getSellRate(pair) {
   const rate = tokenAmount / usdcAmountHuman;
 
   return {
-    pair: pair.symbol,
+    pair: pair.currency_pair,
     rate: formatRate(rate),
     timestamp: new Date().toISOString(),
     type: "sell",
-    source: "1inch",
-    details: {
-      usdcAmount: usdcAmountHuman.toString(),
-      tokenAmount: tokenAmount.toString(),
-      rawResponse: quote,
-    },
+    // source: "1inch",
+    // details: {
+    //   usdcAmount: usdcAmountHuman.toString(),
+    //   tokenAmount: tokenAmount.toString(),
+    //   rawResponse: quote,
+    // },
   };
 }
 
@@ -198,7 +161,7 @@ async function fetchAllRates() {
       if (buyRate) {
         results.push(buyRate);
         // console.log(
-        //   `  Buy ${pair.symbol}: 1 USDC = ${buyRate.rate} ${pair.tokenSymbol}`
+        //   `  Buy ${pair.symbol}: 1 USD = ${buyRate.rate} ${pair.currency}`
         // );
       }
 
@@ -207,7 +170,7 @@ async function fetchAllRates() {
       if (sellRate) {
         results.push(sellRate);
         // console.log(
-        //   `  Sell ${pair.symbol}: 1 USDC = ${sellRate.rate} ${pair.tokenSymbol}`
+        //   `  Sell ${pair.symbol}: 1 USD = ${sellRate.rate} ${pair.currency}`
         // );
       }
 
@@ -307,6 +270,7 @@ async function main() {
     // Initial fetch
     console.log("Fetching initial exchange rates...");
     const rates = await fetchAllRates();
+    // console.log("Rates: ", rates);
     saveRatesToFile(rates);
 
     // Schedule updates
@@ -315,16 +279,18 @@ async function main() {
     );
     setInterval(async () => {
       try {
-        console.log("\n--- Starting scheduled update ---");
+        const now = new Date().toISOString();
+        console.log(`\n[${now}] --- Starting scheduled update ---`);
         const updatedRates = await fetchAllRates();
         saveRatesToFile(updatedRates);
+        console.log(`[${new Date().toISOString()}] current-rates.json updated!`);
         console.log(
           `\nNext update in ${Math.floor(
             UPDATE_INTERVAL_MS / 60000
           )} minutes...`
         );
       } catch (error) {
-        console.error("Error during scheduled update:", error);
+        console.error(`[${new Date().toISOString()}] Error during scheduled update:`, error);
       }
     }, UPDATE_INTERVAL_MS);
   } catch (error) {
@@ -339,6 +305,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  main,
   fetchAllRates,
   getBuyRate,
   getSellRate,
