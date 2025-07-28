@@ -2,9 +2,11 @@
   "name": "1inch-exchange-rates",
   "version": "1.0.0",
   "description": "Fetches exchange rates from 1inch API for specified currency pairs",
-  "main": "exchange-rates.js",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node exchange-rates.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,6 +19,20 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "@types/express": "^4.17.13",
+    "airtable": "^0.11.4",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "node-fetch": "^3.3.2",
+    "otp-generator": "^4.0.1",
+    "qrcode": "^1.5.4",
+    "uuid": "^8.3.2",
+    "winston": "^3.17.0"
   }
 }
