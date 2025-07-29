@@ -1,10 +1,7 @@
 const whiteList = [
   "https://linkio.world",
-  "https://admin.linkio.world",
-  "https://app.linkio.world",
+  "https://api.linkio.world",
   "https://beta.linkio.world",
-  "https://dev.linkio.world",
-  "https://ramp.linkio.world",
   "http://localhost:3000",
 ];
 
